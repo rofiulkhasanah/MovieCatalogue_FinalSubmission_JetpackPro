@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dicoding.moviecatalogue">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MovieCatalogue">
+        <activity android:name=".ui.favorite.FavoriteActivity" />
+        <activity
+            android:name=".ui.detail.movie.DetailMovieActivity"
+            android:label="@string/title_activity_detail_movie"
+            android:parentActivityName="com.dicoding.moviecatalogue.ui.main.MainActivity"
+            android:theme="@style/Theme.Academy.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dicoding.moviecatalogue.ui.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.detail.tvshow.DetailTvShowActivity"
+            android:label="@string/title_activity_detail_tv_show"
+            android:parentActivityName="com.dicoding.moviecatalogue.ui.main.MainActivity"
+            android:theme="@style/Theme.Academy.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dicoding.moviecatalogue.ui.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.SplashScreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

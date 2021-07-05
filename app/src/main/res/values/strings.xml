@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MovieCatalogue</string>
+    <string name="title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="description_course">Overview</string>
+    <string name="description_overview">Description Overview</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">MOVIE</string>
+    <string name="tvshow">TV SHOW</string>
+    <string name="fail_load_data">Failed load the data.</string>
+    <string name="retry">Retry</string>
+    <string name="data_not_found">$s not found</string>
+    <string name="title_activity_detail_movie">Detail Movie</string>
+    <string name="title_activity_detail_tv_show">Detail TV Show</string>
+    <string name="rating">Rating : %s</string>
+    <string name="logo">Logo</string>
+    <string name="movie">MOVIE</string>
+    <string name="favorite">FAVORITE</string>
+    <string name="setting">Setiing</string>
+</resources>
