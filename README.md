@@ -20,3 +20,4 @@ Aplikasi Movie Catalogue merupakan submission dari kelas Belajar Android Jetpack
 
 ## Preview App
 ![Home](home.jpg)
+![Favorite](favorite.jpg)
