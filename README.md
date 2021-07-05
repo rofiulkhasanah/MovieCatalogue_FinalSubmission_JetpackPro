@@ -1,4 +1,4 @@
-# MovieCatalogue Final Submissio
+# MovieCatalogue Final Submission
 ### Belajar Android Jetpack Pro dari Dicoding
 
 Aplikasi Movie Catalogue merupakan submission dari kelas Belajar Android Jetpack Pro dari dicoding, dan ini untuk memenuhi submission 3 atau Final Submissio
